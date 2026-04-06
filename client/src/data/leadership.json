@@ -1,0 +1,23 @@
+{
+  "header": {
+    "title": "Our Leadership",
+    "description": "Meet the experienced minds guiding PT KERTA RAHAYU CIKAL PERSADA towards sustainable growth and market excellence."
+  },
+  "leaders": [
+    {
+      "role": "Board of Directors",
+      "desc": "Overseeing strategic vision and multi-sector expansion.",
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32d7?q=80&w=300&auto=format&fit=crop"
+    },
+    {
+      "role": "Operations Management",
+      "desc": "Handling day-to-day excellence across agriculture, manufacturing, and construction.",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&auto=format&fit=crop"
+    },
+    {
+      "role": "Financial Leadership",
+      "desc": "Ensuring sustainable investment and robust commercial viability.",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=300&auto=format&fit=crop"
+    }
+  ]
+}
