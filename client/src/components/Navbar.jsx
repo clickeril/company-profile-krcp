@@ -106,14 +106,14 @@ export default function Navbar() {
                 );
               })}
 
-              {/* <div className="pl-4 ml-2 border-l border-white/20">
+              <div className="pl-4 ml-2 border-l border-white/20">
                 <Link
                   to="/contact"
                   className="bg-accent hover:bg-accent/90 !text-white px-6 py-2.5 rounded-full text-sm font-bold transition-all transform hover:scale-105 active:scale-95 shadow-md"
                 >
                   Get a Quote
                 </Link>
-              </div> */}
+              </div>
             </div>
 
             {/* Mobile menu button */}
