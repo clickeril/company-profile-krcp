@@ -1,11 +1,9 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
 
-// Konfigurasi standar tanpa ketergantungan pada variabel .env
+// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-  // Jika Anda ingin tetap menyediakan objek process.env agar tidak error di file lain:
-  define: {
-    "process.env": {},
-  },
+  plugins: [react(), tailwindcss()],
+  base: process.env.VITE_BASE_URL || "/company-profile-krcp",
 });
